@@ -32,10 +32,7 @@
             "parent": "76",
             "components": [
                 {
-                    "type": "view",
-                    "view": {
-                        "far": 1000.0
-                    }
+                    "type": "view"
                 },
                 {
                     "type": "mouse-look"
@@ -47,10 +44,7 @@
             "parent": "76",
             "components": [
                 {
-                    "type": "view",
-                    "view": {
-                        "far": 1000.0
-                    }
+                    "type": "view"
                 },
                 {
                     "type": "input",
@@ -188,6 +182,11 @@
                 0.0,
                 0.0,
                 1.0
+            ],
+            "translation": [
+                0.0,
+                6.3036236,
+                0.0
             ]
         },
         "86": {
@@ -612,11 +611,7 @@
         },
         "92": {
             "name": "sky1",
-            "pipeline": "54",
-            "Sky": {
-                "texture": "4",
-                "rotationY": 0.0
-            }
+            "pipeline": "54"
         }
     },
     "shaders": {
@@ -920,8 +915,7 @@
             },
             "environment": {
                 "bakingMode": "sky",
-                "material": "89",
-                "enabled": true
+                "material": "89"
             }
         },
         "runtime": {
@@ -1084,12 +1078,6 @@
                 "name": "texture_2",
                 "file": "models\\sun.glb"
             }
-        },
-        "4": {
-            "link": {
-                "name": "milky-way-2695569_1920.jpg",
-                "file": "models\\milky-way-2695569_1920.jpg"
-            }
         }
     },
     "images": {
@@ -1110,12 +1098,6 @@
                 "name": "image_2",
                 "file": "models\\sun.glb"
             }
-        },
-        "4": {
-            "link": {
-                "name": "milky-way-2695569_1920.jpg",
-                "file": "models\\milky-way-2695569_1920.jpg"
-            }
         }
     },
     "fonts": {
@@ -1132,10 +1114,6 @@
             "fileName": "models/sun.glb",
             "importerName": "",
             "importPhysicalAsPhongMaterials": true
-        },
-        "2": {
-            "fileName": "models/milky-way-2695569_1920.jpg",
-            "importerName": ""
         }
     },
     "morphTargets": {},
