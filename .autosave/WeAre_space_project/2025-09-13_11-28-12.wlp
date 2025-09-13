@@ -81,9 +81,9 @@
                 }
             ],
             "scaling": [
-                15.9999961,
-                16.0,
-                16.0
+                17.3999996,
+                17.4000034,
+                17.4000034
             ],
             "translation": [
                 0.0,
@@ -354,7 +354,7 @@
                     1.0
                 ]
             },
-            "pipeline": "37"
+            "pipeline": "48"
         },
         "25": {
             "name": "Yellow",
@@ -860,7 +860,8 @@
                 "file": "default"
             },
             "features": {
-                "SEPARATE_OCCLUSION_TEXTURE": true
+                "SEPARATE_OCCLUSION_TEXTURE": true,
+                "NORMAL_MAPPING": true
             }
         },
         "51": {
