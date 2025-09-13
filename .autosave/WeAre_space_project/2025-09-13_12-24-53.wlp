@@ -87,14 +87,14 @@
             ],
             "translation": [
                 0.0,
-                -1.1290048,
-                1.1920928955078125e-7
+                -1.1290047,
+                5.960464477539064e-8
             ],
             "rotation": [
-                -0.7072572,
+                -0.707265,
                 0.0,
                 0.0,
-                0.7069563
+                0.7069485
             ]
         },
         "82": {
@@ -182,78 +182,195 @@
                 0.0,
                 0.0,
                 1.0
+            ],
+            "translation": [
+                1.7716771,
+                -0.0658264,
+                0.6134147
             ]
         },
         "86": {
             "link": {
                 "name": "Sketchfab_model",
-                "file": "models\\sun.glb"
-            }
+                "file": "models\\uranus.glb"
+            },
+            "translation": [
+                -0.3349648,
+                0.7109336,
+                -0.9324543
+            ],
+            "rotation": [
+                0.0,
+                0.7071071,
+                -0.7071063,
+                0.0
+            ],
+            "scaling": [
+                0.0999999,
+                0.0999935,
+                0.0999935
+            ]
         },
         "87": {
             "link": {
-                "name": "3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
-                "file": "models\\sun.glb"
+                "name": "aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
             },
             "parent": "86"
         },
         "88": {
             "link": {
-                "name": "Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
-                "file": "models\\sun.glb"
+                "name": "RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
             },
             "parent": "87"
         },
         "89": {
             "link": {
-                "name": "RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
-                "file": "models\\sun.glb"
+                "name": "Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
             },
             "parent": "88"
         },
         "90": {
             "link": {
+                "name": "Sphere_Material.002_0<Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "89",
+            "scaling": [
+                0.1,
+                0.1,
+                0.1
+            ]
+        },
+        "91": {
+            "link": {
+                "name": "Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "92": {
+            "link": {
+                "name": "Circle_ring_0<Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "91",
+            "scaling": [
+                0.1,
+                0.1,
+                0.1
+            ]
+        },
+        "93": {
+            "link": {
+                "name": "Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "94": {
+            "link": {
+                "name": "Circle.001_ring_0<Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "93",
+            "scaling": [
+                0.1,
+                0.1,
+                0.1
+            ]
+        },
+        "95": {
+            "link": {
+                "name": "Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "96": {
+            "link": {
+                "name": "Circle.002_ring_0<Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "95",
+            "scaling": [
+                0.1,
+                0.1,
+                0.1
+            ]
+        },
+        "108": {
+            "link": {
+                "name": "Sketchfab_model",
+                "file": "models\\sun.glb"
+            },
+            "scaling": [
+                0.1,
+                0.0999996,
+                0.0999996
+            ],
+            "translation": [
+                0.6716765,
+                0.1956785,
+                2.199373
+            ],
+            "rotation": [
+                -0.7071065,
+                0.0,
+                0.0,
+                0.707107
+            ]
+        },
+        "109": {
+            "link": {
+                "name": "3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
+                "file": "models\\sun.glb"
+            },
+            "parent": "108"
+        },
+        "110": {
+            "link": {
+                "name": "Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
+                "file": "models\\sun.glb"
+            },
+            "parent": "109"
+        },
+        "111": {
+            "link": {
+                "name": "RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
+                "file": "models\\sun.glb"
+            },
+            "parent": "110"
+        },
+        "112": {
+            "link": {
                 "name": "UnstableStarCore<RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
                 "file": "models\\sun.glb"
             },
-            "parent": "89"
+            "parent": "111"
         },
-        "91": {
+        "113": {
             "link": {
                 "name": "UnstableStarCore_1_0<UnstableStarCore<RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
                 "file": "models\\sun.glb"
             },
-            "parent": "90"
+            "parent": "112"
         },
-        "92": {
+        "114": {
             "link": {
                 "name": "UnstableStarref<RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
                 "file": "models\\sun.glb"
             },
-            "parent": "89"
+            "parent": "111"
         },
-        "93": {
+        "115": {
             "link": {
                 "name": "UnstableStarref_2_0<UnstableStarref<RootNode<Object_2<3a2aaa22fb3d4b329318a980ad1bf6d1.fbx<Sketchfab_model",
                 "file": "models\\sun.glb"
             },
-            "parent": "92",
-            "translation": [
-                0.0,
-                -0.0,
-                -0.0
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                1.0,
-                1.0,
-                1.0
-            ]
+            "parent": "114"
         }
     },
     "meshes": {
@@ -295,11 +412,35 @@
         },
         "13": {
             "link": {
+                "name": "Sphere_Material.002_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "14": {
+            "link": {
+                "name": "Circle_ring_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "15": {
+            "link": {
+                "name": "Circle.001_ring_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "16": {
+            "link": {
+                "name": "Circle.002_ring_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "17": {
+            "link": {
                 "name": "UnstableStarCore_1_0",
                 "file": "models\\sun.glb"
             }
         },
-        "14": {
+        "18": {
             "link": {
                 "name": "UnstableStarref_2_0",
                 "file": "models\\sun.glb"
@@ -497,11 +638,23 @@
         },
         "90": {
             "link": {
+                "name": "Material.002",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "91": {
+            "link": {
+                "name": "ring",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "92": {
+            "link": {
                 "name": "material",
                 "file": "models\\sun.glb"
             }
         },
-        "91": {
+        "93": {
             "link": {
                 "name": "material_1",
                 "file": "models\\sun.glb"
@@ -958,16 +1111,22 @@
         "1": {
             "link": {
                 "name": "texture_0",
-                "file": "models\\sun.glb"
+                "file": "models\\uranus.glb"
             }
         },
         "2": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\sun.glb"
+            }
+        },
+        "3": {
             "link": {
                 "name": "texture_1",
                 "file": "models\\sun.glb"
             }
         },
-        "3": {
+        "4": {
             "link": {
                 "name": "texture_2",
                 "file": "models\\sun.glb"
@@ -978,16 +1137,22 @@
         "1": {
             "link": {
                 "name": "image_0",
-                "file": "models\\sun.glb"
+                "file": "models\\uranus.glb"
             }
         },
         "2": {
+            "link": {
+                "name": "image_0",
+                "file": "models\\sun.glb"
+            }
+        },
+        "3": {
             "link": {
                 "name": "image_1",
                 "file": "models\\sun.glb"
             }
         },
-        "3": {
+        "4": {
             "link": {
                 "name": "image_2",
                 "file": "models\\sun.glb"
@@ -1005,6 +1170,11 @@
     "languages": {},
     "files": {
         "1": {
+            "fileName": "models/uranus.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        },
+        "2": {
             "fileName": "models/sun.glb",
             "importerName": "",
             "importPhysicalAsPhongMaterials": true
