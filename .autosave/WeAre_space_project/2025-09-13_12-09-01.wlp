@@ -81,48 +81,20 @@
                 }
             ],
             "scaling": [
-                17.3999996,
-                17.4000034,
-                17.4000034
+                129.6999969,
+                129.7000274,
+                129.7000274
             ],
             "translation": [
                 0.0,
-                -0.0,
-                1.1921009956950004e-7
+                -1.1290048,
+                1.1920928955078125e-7
             ],
             "rotation": [
-                -0.7072544,
+                -0.7072572,
                 0.0,
                 0.0,
-                0.7069591
-            ]
-        },
-        "81": {
-            "name": "Cube",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "22"
-                    }
-                }
-            ],
-            "scaling": [
-                0.5,
-                0.5,
-                0.5
-            ],
-            "translation": [
-                -0.6665739,
-                0.4999999,
-                0.5696738
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
+                0.7069563
             ]
         },
         "82": {
@@ -189,34 +161,6 @@
                 0.8822776
             ]
         },
-        "84": {
-            "name": "Cone",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "10",
-                        "material": "25"
-                    }
-                }
-            ],
-            "scaling": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "translation": [
-                0.8334258,
-                1.0,
-                0.5696737
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
-        },
         "85": {
             "name": "Sphere",
             "components": [
@@ -233,17 +177,104 @@
                 0.75,
                 0.75
             ],
-            "translation": [
-                -0.166574,
-                0.75,
-                -0.6803262
-            ],
             "rotation": [
                 0.0,
                 0.0,
                 0.0,
                 1.0
             ]
+        },
+        "86": {
+            "link": {
+                "name": "Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "translation": [
+                0.0000834,
+                0.0028896,
+                -0.0
+            ],
+            "rotation": [
+                -0.0,
+                0.7071068,
+                -0.7071066,
+                0.0
+            ],
+            "scaling": [
+                0.9999999,
+                0.9999999,
+                0.9999999
+            ]
+        },
+        "87": {
+            "link": {
+                "name": "aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "86"
+        },
+        "88": {
+            "link": {
+                "name": "RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "87"
+        },
+        "89": {
+            "link": {
+                "name": "Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "90": {
+            "link": {
+                "name": "Sphere_Material.002_0<Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "89"
+        },
+        "91": {
+            "link": {
+                "name": "Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "92": {
+            "link": {
+                "name": "Circle_ring_0<Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "91"
+        },
+        "93": {
+            "link": {
+                "name": "Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "94": {
+            "link": {
+                "name": "Circle.001_ring_0<Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "93"
+        },
+        "95": {
+            "link": {
+                "name": "Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "88"
+        },
+        "96": {
+            "link": {
+                "name": "Circle.002_ring_0<Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
+                "file": "models\\uranus.glb"
+            },
+            "parent": "95"
         }
     },
     "meshes": {
@@ -281,6 +312,30 @@
             "link": {
                 "name": "PrimitiveCircle",
                 "file": "default"
+            }
+        },
+        "13": {
+            "link": {
+                "name": "Sphere_Material.002_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "14": {
+            "link": {
+                "name": "Circle_ring_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "15": {
+            "link": {
+                "name": "Circle.001_ring_0",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "16": {
+            "link": {
+                "name": "Circle.002_ring_0",
+                "file": "models\\uranus.glb"
             }
         }
     },
@@ -471,6 +526,18 @@
                     0.0,
                     1.0
                 ]
+            }
+        },
+        "90": {
+            "link": {
+                "name": "Material.002",
+                "file": "models\\uranus.glb"
+            }
+        },
+        "91": {
+            "link": {
+                "name": "ring",
+                "file": "models\\uranus.glb"
             }
         }
     },
@@ -913,8 +980,22 @@
             }
         }
     },
-    "textures": {},
-    "images": {},
+    "textures": {
+        "1": {
+            "link": {
+                "name": "texture_0",
+                "file": "models\\uranus.glb"
+            }
+        }
+    },
+    "images": {
+        "1": {
+            "link": {
+                "name": "image_0",
+                "file": "models\\uranus.glb"
+            }
+        }
+    },
     "fonts": {
         "55": {
             "link": {
@@ -924,7 +1005,13 @@
         }
     },
     "languages": {},
-    "files": {},
+    "files": {
+        "1": {
+            "fileName": "models/uranus.glb",
+            "importerName": "",
+            "importPhysicalAsPhongMaterials": true
+        }
+    },
     "morphTargets": {},
     "particleEffects": {}
 }
