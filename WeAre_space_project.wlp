@@ -88,7 +88,7 @@
             "translation": [
                 0.0,
                 -1.1290047,
-                5.960464477539063e-8
+                5.960464477539064e-8
             ],
             "rotation": [
                 -0.707265,
@@ -188,98 +188,6 @@
                 -0.0658264,
                 0.6134147
             ]
-        },
-        "86": {
-            "link": {
-                "name": "Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "translation": [
-                -1.0692677,
-                -0.182838,
-                -0.5887906
-            ],
-            "rotation": [
-                -0.0,
-                0.7071069,
-                -0.7071065,
-                0.0
-            ],
-            "scaling": [
-                0.1,
-                0.0999991,
-                0.0999991
-            ]
-        },
-        "87": {
-            "link": {
-                "name": "aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "86"
-        },
-        "88": {
-            "link": {
-                "name": "RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "87"
-        },
-        "89": {
-            "link": {
-                "name": "Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "88"
-        },
-        "90": {
-            "link": {
-                "name": "Sphere_Material.002_0<Sphere<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "89"
-        },
-        "91": {
-            "link": {
-                "name": "Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "88"
-        },
-        "92": {
-            "link": {
-                "name": "Circle_ring_0<Circle<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "91"
-        },
-        "93": {
-            "link": {
-                "name": "Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "88"
-        },
-        "94": {
-            "link": {
-                "name": "Circle.001_ring_0<Circle.001<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "93"
-        },
-        "95": {
-            "link": {
-                "name": "Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "88"
-        },
-        "96": {
-            "link": {
-                "name": "Circle.002_ring_0<Circle.002<RootNode<aae52dc744aa4ce19d2d093f837751c7.fbx<Sketchfab_model",
-                "file": "models\\uranus.glb"
-            },
-            "parent": "95"
         },
         "97": {
             "link": {
